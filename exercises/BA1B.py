@@ -36,6 +36,6 @@ if __name__ == "__main__":
         text = f.readline().strip()
         k = int(f.readline().strip())
     
-    frequent = frequent_words(text, k)
+    frequent = frequent_words(text, k) # answer can't be in a list
     for i in frequent:
         print(i)
