@@ -1,4 +1,5 @@
 import os
+from exercises import BA1K, BA1M
 
 def frequent_words(text, k) -> str:
     """Find the most frequent k-mer in a string
@@ -28,7 +29,40 @@ def frequent_words(text, k) -> str:
             frequent_kmers.append(k)
     
     frequent_kmers = sorted(frequent_kmers)
-    return(frequent_kmers)
+    return(" ".join([str(x) for x in frequent_kmers]))
+
+def faster_frequent_words(text: str, k: int) -> str:
+    """Finds all most frequent k-mers by by finding all k-mers corresponding
+    to the maximum element(s) in the frequency array
+
+    Parameters
+    ----------
+    text : str
+        DNA string where k-mers will be found
+    k : int
+        length of the k-mers
+
+    Returns
+    -------
+    str
+        str with the most frequent kmers
+    """
+    frequent_patterns = set()
+    frequency_array = list(
+        map(
+            int, BA1K.computing_frequencies(text, k).split(" ")
+            )
+        ) # computing frequencies returns a str such as ["1 2 3 4"], need to split
+          # to have ["1", "2", "3", "4"] and then convert them to ints
+          
+    max_count = max(frequency_array)
+    for i in range(0, 4**k):
+        if frequency_array[i] == max_count:
+            pattern = BA1M.number_to_pattern(i, k)
+            frequent_patterns.add(pattern)
+    frequent_patterns = sorted(frequent_patterns)
+    return " ".join(frequent_patterns)
+
 
 if __name__ == "__main__":
     filename = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "rosalind_ba1b.txt")
@@ -36,6 +70,7 @@ if __name__ == "__main__":
         text = f.readline().strip()
         k = int(f.readline().strip())
     
-    frequent = frequent_words(text, k) # answer can't be in a list
-    for i in frequent:
-        print(i)
+    frequent = frequent_words(text, k)
+    faster_frequent = faster_frequent_words(text, k) 
+    print(frequent)
+    print(faster_frequent)
