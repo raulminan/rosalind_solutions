@@ -7,7 +7,7 @@ class Tests(unittest.TestCase):
         k = 2
         result = "2 1 0 0 0 0 2 2 1 2 1 0 0 1 1 0"
         
-        self.assertEqual(BA1K.computing_frequencies(text, k), result)
+        self.assertEqual(BA1K.computing_frequencies(text, k, output_str=True), result)
 
 if __name__ == "__main__":
     unittest.main()

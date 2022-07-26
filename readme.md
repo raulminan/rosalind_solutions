@@ -8,3 +8,4 @@
 * BA1K: Generate the Frequency Array of a String [[info](http://rosalind.info/problems/ba1k/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA1K.py)]
 * BA1L: Implement PatternToNumber [[info](http://rosalind.info/problems/ba1l/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA1L.py)]
 * BA1M: Implement NumberToPattern [[info](http://rosalind.info/problems/ba1m/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA1M.py)]
+* BA1F: Find a Position in a Genome Minimizing the Skew [[info](https://rosalind.info/problems/ba1f/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA1F.py)]
