@@ -1,5 +1,5 @@
 import unittest
-from exercises.BA1A import pattern_count
+from exercises.BA_ch1.BA1A import pattern_count
 
 class Tests(unittest.TestCase):
     def test_pattern_count(self):

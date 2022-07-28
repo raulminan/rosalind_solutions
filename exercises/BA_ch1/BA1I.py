@@ -26,7 +26,7 @@ def approximate_pattern_count(text: str, pattern: str, d: int) -> int:
     
     return count
 
-def frequent_words_with_mismatches(text: str, k: int, d: int) -> str:
+def frequent_words_with_mismatches(text: str, k: int, d: int) -> list:
     """Finds the most frequent k-mer in text with at most d mismatches
 
     Parameters
@@ -39,8 +39,8 @@ def frequent_words_with_mismatches(text: str, k: int, d: int) -> str:
 
     Returns
     -------
-    str
-        string with all the most frequent k-mers with up to d mismatches
+    list
+        list with all the most frequent k-mers with up to d mismatches
     """
     frequent_patterns = []
     close = [0] * 4**k

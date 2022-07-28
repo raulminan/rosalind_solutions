@@ -1,4 +1,4 @@
-from exercises import BA1I
+from exercises.BA_ch1 import BA1I
 
 class Tests:
     def test_frequent_words_with_mismatches(self):

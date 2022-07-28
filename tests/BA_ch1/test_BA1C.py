@@ -1,5 +1,5 @@
 import unittest
-from exercises.BA1C import reverse_complement
+from exercises.BA_ch1.BA1C import reverse_complement
 
 class Tests(unittest.TestCase):
     def test_reverse_complement(self):

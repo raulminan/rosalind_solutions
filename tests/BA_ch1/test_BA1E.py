@@ -1,7 +1,7 @@
 import unittest
 import pytest
 
-from exercises import BA1E
+from exercises.BA_ch1 import BA1E
 
 class Tests:
     def test_find_clumps_frequent_words(self):

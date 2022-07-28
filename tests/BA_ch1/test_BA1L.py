@@ -1,5 +1,5 @@
 import unittest
-from exercises import BA1L
+from exercises.BA_ch1 import BA1L
 
 class Tests(unittest.TestCase):
     def test_pattern_to_number(self):

@@ -49,13 +49,8 @@ def faster_frequent_words(text: str, k: int, t: int = 0) -> str:
         str with the most frequent kmers
     """
     frequent_patterns = set()
-    frequency_array = list(
-        map(
-            int, BA1K.computing_frequencies(text, k).split(" ")
-            )
-        ) # computing frequencies returns a str such as ["1 2 3 4"], need to split
-          # to have ["1", "2", "3", "4"] and then convert them to ints
-    
+    frequency_array = BA1K.computing_frequencies(text, k, output_str=False)
+         
     max_count = max(frequency_array)
     for i in range(0, 4**k):
         if frequency_array[i] == max_count and frequency_array[i] >= t:

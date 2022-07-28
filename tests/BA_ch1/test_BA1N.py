@@ -1,4 +1,4 @@
-from exercises import BA1N
+from exercises.BA_ch1 import BA1N
 
 class Tests:
     def test_neighbors(self):

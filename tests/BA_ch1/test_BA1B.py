@@ -1,5 +1,5 @@
 import unittest
-from exercises.BA1B import frequent_words, faster_frequent_words
+from exercises.BA_ch1.BA1B import frequent_words, faster_frequent_words
 
 class Tests(unittest.TestCase):
     """tests for exercise BA1B"""

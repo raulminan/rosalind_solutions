@@ -1,5 +1,5 @@
 import pytest
-from exercises import BA1F
+from exercises.BA_ch1 import BA1F
 
 class Tests:
     def test_BA1F_1(self):

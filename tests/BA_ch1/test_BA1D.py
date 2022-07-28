@@ -1,5 +1,5 @@
 import unittest
-from exercises.BA1D import find_occurences
+from exercises.BA_ch1.BA1D import find_occurences
 
 class Tests(unittest.TestCase):
     def test_find_occurences(self):

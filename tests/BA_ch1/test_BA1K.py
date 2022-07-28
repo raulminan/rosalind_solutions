@@ -1,5 +1,5 @@
 import unittest
-from exercises import BA1K
+from exercises.BA_ch1 import BA1K
 
 class Test:
     def test_computing_frequencies(self):

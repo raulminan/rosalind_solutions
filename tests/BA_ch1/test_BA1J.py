@@ -1,4 +1,4 @@
-from exercises import BA1J
+from exercises.BA_ch1 import BA1J
 
 class Test:
     def test_freq_words_mismatches_reverse(self):
