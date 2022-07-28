@@ -1,8 +1,8 @@
 # Rosalind Solutions
 
 > This repository contains my solutions for the ROSALIND problems
-# Bioinformatics Textbook Track:
-## Chapter 1: Where in the genome does DNA replication begin?
+## Bioinformatics Textbook Track:
+### Chapter 1: Where in the genome does DNA replication begin?
 
 * BA1A: Compute the Number of Times a Pattern Appears in a Text [[info](http://rosalind.info/problems/ba1a/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch1/BA1A.py)]
 * BA1B: Find the Most Frequent Words in a String [[info](http://rosalind.info/problems/ba1b/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch1/BA1B.py)]
@@ -19,4 +19,4 @@
 * BA1M: Implement NumberToPattern [[info](http://rosalind.info/problems/ba1m/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch1/BA1M.py)]
 * BA1N: Generate the d-Neighborhood of a String [[info](https://rosalind.info/problems/ba1n/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch1/BA1N.py)]
 
-## Chapter 2: Which DNA patterns play the role of molecular clocks?
+### Chapter 2: Which DNA patterns play the role of molecular clocks?
