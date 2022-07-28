@@ -1,6 +1,6 @@
 import os
 from exercises.utils import load_file
-from exercises import BA1G
+from exercises.BA_ch1 import BA1G
 
 def approx_pattern_matching(pattern: str, text: str, d: int) -> str:
     """Find all approximate occurences of a pattern in a string

@@ -1,4 +1,5 @@
-from exercises import utils, BA1G
+from exercises import utils
+from exercises.BA_ch1 import BA1G
 
 def suffix(pattern: str) -> str:
     """Returns a string without the first letter"""

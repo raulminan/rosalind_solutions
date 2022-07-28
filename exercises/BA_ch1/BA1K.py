@@ -1,6 +1,6 @@
 import os
 import numpy as np
-from exercises import BA1L
+from exercises.BA_ch1 import BA1L
 
 def computing_frequencies(text: str, k: int, output_str=False) -> str:
     """Generate a frequency array of a string as an array of length

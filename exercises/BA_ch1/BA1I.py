@@ -1,4 +1,5 @@
-from exercises import utils, BA1G, BA1L, BA1M, BA1N
+from exercises import utils
+from exercises.BA_ch1 import BA1G, BA1L, BA1M, BA1N
 
 
 def approximate_pattern_count(text: str, pattern: str, d: int) -> int:

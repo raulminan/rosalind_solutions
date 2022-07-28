@@ -1,4 +1,5 @@
-from exercises import utils, BA1C, BA1I, BA1L, BA1M, BA1N
+from exercises import utils
+from exercises.BA_ch1 import BA1C, BA1I, BA1L, BA1M, BA1N
 
 def frequent_words_with_mismatches_complement(text: str, k: int, d: int) -> list:
     """Finds the most frequent k-mers (with mismatches and reverse complements)
