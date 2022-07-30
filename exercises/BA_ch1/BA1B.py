@@ -1,5 +1,5 @@
 import os
-from exercises import BA1K, BA1M
+from exercises.BA_ch1 import BA1K, BA1M
 
 def frequent_words(text, k) -> str:
     """Find the most frequent k-mer in a string

@@ -1,6 +1,6 @@
 import os
 import re
-from exercises import BA1B, BA1M, BA1K, BA1L
+from exercises.BA_ch1 import BA1B, BA1M, BA1K, BA1L
 
 # TODO debug 
 def find_clumps_frequent_words(genome: str, k: int, L: int, t: int) -> str:
