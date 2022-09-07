@@ -20,3 +20,9 @@
 * BA1N: Generate the d-Neighborhood of a String [[info](https://rosalind.info/problems/ba1n/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch1/BA1N.py)]
 
 ### Chapter 2: Which DNA patterns play the role of molecular clocks?
+
+* BA2A: Implement MotifEnumeration [[info](https://rosalind.info/problems/ba2a/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch2/BA2A.py)]
+* BA2B: Find a Median String [[info](https://rosalind.info/problems/ba2b/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch2/BA2B.py)]
+* BA2C: Find a Profile-most Probable k-mer in a String [[info](https://rosalind.info/problems/ba2c/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch2/BA2C.py)]
+* BA2D: Implement GreedyMotifSearch [[info](https://rosalind.info/problems/ba2d/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch2/BA2D.py)]
+* BA2H: Implement Implement DistanceBetweenPatternAndStrings [[info](https://rosalind.info/problems/ba2h/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch2/BA2H.py)]
