@@ -5,7 +5,7 @@ def d_pattern_and_strings(pattern: str, dna: list) -> int:
     """Computes d(pattern, dna), the sum of distances between pattern and each
     string in dna = {dna_1, ... dna_t}
     
-    d (pattern, dna) = \\sum_{i=1}^{t} d(pattern, dna) \\ 
+    d (pattern, dna) = \\sum_{i=1}^{t} d(pattern, dna_i)
 
     Parameters
     ----------

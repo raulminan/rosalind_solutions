@@ -12,7 +12,7 @@ def median_string(dna: list, k: int) -> str:
     Given a k-mer 'pattern' and a set of strings dna = {dna_1, ... dna_t}, we define
     d(pattern, dna) as the sum of the distinces between pattern and all strings in dna
     
-    d (pattern, dna) = \\sum_{i=1}^{t} d(pattern, dna) \\ 
+    d (pattern, dna) = \sum_{i=1}^{t} d(pattern, dna_i) 
     
     This function finds a k-mer pattern that minimizes d(pattern, dna) over all k-mers
     pattern.
@@ -39,14 +39,17 @@ def median_string(dna: list, k: int) -> str:
     
     # ===========================================================
     # # use only kmers appearing in dna
-    # long_dna = "".join(dna)
+    # long_dna = "".join(dna) ==> this wont work because dna strings must remain 
+    #                             separate. Instead, loop trough each dna string
+    #                             and get all kmers appearing there #TODO
+    
     # for i in range(0, long_dna - k + 1):
     #     pattern = long_dna[i:i+k]
     #     if distance > BA2H.d_pattern_and_strings(pattern, dna):
     #         distance = BA2H.d_pattern_and_strings(pattern, dna)
     #         median_string = pattern
     # ===========================================================
-            
+    
     return median_string
 
 if __name__ == "__main__":
