@@ -1,2 +1,5 @@
 # ignore pychache
 __pycache__/
+
+# ignore debug datasets
+debug_datasets/
