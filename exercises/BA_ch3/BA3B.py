@@ -27,3 +27,4 @@ if __name__ == "__main__":
         kmers = f.read().splitlines()
     
     print(string_reconstruct(kmers))
+    
