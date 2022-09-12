@@ -25,4 +25,6 @@
 * BA2B: Find a Median String [[info](https://rosalind.info/problems/ba2b/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch2/BA2B.py)]
 * BA2C: Find a Profile-most Probable k-mer in a String [[info](https://rosalind.info/problems/ba2c/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch2/BA2C.py)]
 * BA2D: Implement GreedyMotifSearch [[info](https://rosalind.info/problems/ba2d/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch2/BA2D.py)]
+* BA2E: Implement GreedyMotifSearch with Pseudocounts [[info](https://rosalind.info/problems/ba2e/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch2/BA2E.py)]
+* BA2F: Implement RandomizedMotifSearch [[info](https://rosalind.info/problems/ba2f/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch2/BA2F.py)]
 * BA2H: Implement Implement DistanceBetweenPatternAndStrings [[info](https://rosalind.info/problems/ba2h/)] [[solution](https://github.com/raulminan/rosalind_solutions/blob/main/exercises/BA_ch2/BA2H.py)]
