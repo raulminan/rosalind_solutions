@@ -3,3 +3,6 @@ __pycache__/
 
 # ignore debug datasets
 debug_datasets/
+
+# ignore vscode config
+.vscode
