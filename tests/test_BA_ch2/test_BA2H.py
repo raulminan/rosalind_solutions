@@ -8,5 +8,3 @@ class Tests:
         my_result = BA2H.d_pattern_and_strings(pattern, dna)
         
         assert correct_output == my_result
-
-# TODO add extensive tests

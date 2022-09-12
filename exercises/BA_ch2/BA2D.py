@@ -37,10 +37,9 @@ def build_profile(dna: list, k:int, t: int) -> list:
         T.append(countT)
     
     count = [A, C, G, T]
-    profile = [[j/t for j in i] for i in count]
-    
+    profile = [[j/len(dna) for j in i] for i in count]
+    # ^ j/len(dna) or t ? t doesn't make sense but gets the answer right
     return profile
-
 
 def find_consensus(motifs: list) -> str:
     """Finds the consensus motif in a matrix of motifs
@@ -101,8 +100,7 @@ def score_motifs(motifs: list) -> int:
         score += BA1G.hamming_distance(motif, consensus)
         
     return score
-    
-       
+           
 def greedy_motif_search(dna: list, k: int, t: int) -> list:
     """A greedy approach to finding the best motif.
 
